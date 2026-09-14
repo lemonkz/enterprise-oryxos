@@ -4,8 +4,10 @@ export default defineConfig({
   title: 'OryxOS',
   titleTemplate: ':title — OryxOS',
   description: '企业级 Agent Harness OS：一个目录定义一个 Agent，一个底座运行一群 Agent。Java 原生 · 私有部署 · 可审计。',
-  base: '/',
-  cleanUrls: true,
+  // GitHub Pages 项目站挂在子路径下，CI 注入 BASE=/仓库名/；本地默认 /
+  base: process.env.BASE || '/',
+  // GH Pages 对无扩展名 URL 支持不稳，部署时关闭；本地开发保留
+  cleanUrls: !process.env.BASE,
   appearance: 'force-light',
 
   head: [
