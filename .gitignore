@@ -1,0 +1,21 @@
+# Build
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Runtime workspace
+.oryxos/
+*.log
+
+# Website
+website/node_modules/
+website/.vitepress/dist/
+website/.vitepress/cache/
+
+# OS
+.DS_Store
+Thumbs.db

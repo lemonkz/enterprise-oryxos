@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="OryxOS">
+  <defs>
+    <linearGradient id="oryxosGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#9333ea"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="160" height="160" rx="36" fill="url(#oryxosGrad)"/>
+
+  <!-- 弯刀状平行长角 -->
+  <g stroke="#ffffff" stroke-width="10" stroke-linecap="round" fill="none">
+    <path d="M 60,78 Q 38,58 28,16"/>
+    <path d="M 100,78 Q 122,58 132,16"/>
+  </g>
+
+  <!-- 双耳 -->
+  <path d="M 58,80 L 34,70 L 60,98 Z" fill="#ffffff"/>
+  <path d="M 102,80 L 126,70 L 100,98 Z" fill="#ffffff"/>
+
+  <!-- 脸部 -->
+  <path d="M 58,72 L 102,72 L 108,92 L 100,138 Q 80,154 60,138 L 52,92 Z" fill="#ffffff"/>
+
+  <!-- 面部斑纹 -->
+  <path d="M 80,76 L 86,102 L 80,148 L 74,102 Z" fill="#6d28d9"/>
+
+  <!-- 眼睛 -->
+  <circle cx="66" cy="104" r="4.5" fill="#4338ca"/>
+  <circle cx="94" cy="104" r="4.5" fill="#4338ca"/>
+</svg>

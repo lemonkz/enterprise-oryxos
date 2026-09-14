@@ -4,8 +4,8 @@
 
 ---
 
-1. docs 理解一下这四个文档，这四个文档就是这个项目要做的事情
-2. 整理一下这四个文档的格式，整理成md好看的格式
+1. docs 理解一下这六个文档，这六个文档就是这个项目要做的事情
+2. 整理一下这六个文档的格式，整理成md好看的格式
 3. 四个文档都要整理
 4. 多agent 并行处理
 5. 根据这些信息，生成claude.md
@@ -21,8 +21,8 @@
 15. logo 放中间
 16. 给我打印出我前面给你的所有提示词。
 17. 这些内容，写入docs/prompt/01.md ，带上序号
-18. robustmq-mq9/website 理解一下这个项目代码。 oryxos 要做一个一模一样的主页，你先理解下。看是否需要我做什么
-19. 1. <https://github.com/oryx-labs/oryxos>  2. 要中一个你问  3. 域名是oryxos.robustmq.com
+18. E:/work/jikeTime/code/mq9/website 理解一下这个项目代码。 oryxos 要做一个一模一样的主页，你先理解下。看是否需要我做什么
+19. 1. <https://github.com/lemonkz/enterprise-oryxos>  2. 要中一个你问  3. 域名是oryxos.robustmq.com
 20. 网页要中英文
 21. 新的提示词也放到docs/prompt/01.md 中
 22. website/.vitepress 和target 驾到gitignore里面

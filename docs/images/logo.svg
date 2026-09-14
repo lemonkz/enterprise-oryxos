@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 160" role="img" aria-label="OryxOS">
+  <defs>
+    <linearGradient id="oryxosGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#9333ea"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 图标：渐变圆角方形 + 弯刀长角羚羊头（整体内容在画布中居中） -->
+  <rect x="8" y="0" width="160" height="160" rx="36" fill="url(#oryxosGrad)"/>
+
+  <!-- 弯刀状平行长角 -->
+  <g stroke="#ffffff" stroke-width="10" stroke-linecap="round" fill="none">
+    <path d="M 68,78 Q 46,58 36,16"/>
+    <path d="M 108,78 Q 130,58 140,16"/>
+  </g>
+
+  <!-- 双耳 -->
+  <path d="M 66,80 L 42,70 L 68,98 Z" fill="#ffffff"/>
+  <path d="M 110,80 L 134,70 L 108,98 Z" fill="#ffffff"/>
+
+  <!-- 脸部：宽顶收窄至口鼻 -->
+  <path d="M 66,72 L 110,72 L 116,92 L 108,138 Q 88,154 68,138 L 60,92 Z" fill="#ffffff"/>
+
+  <!-- 面部斑纹（oryx 特征），品牌色反衬 -->
+  <path d="M 88,76 L 94,102 L 88,148 L 82,102 Z" fill="#6d28d9"/>
+
+  <!-- 眼睛 -->
+  <circle cx="74" cy="104" r="4.5" fill="#4338ca"/>
+  <circle cx="102" cy="104" r="4.5" fill="#4338ca"/>
+
+  <!-- 字标 -->
+  <text x="208" y="108" font-size="84" font-weight="800" font-family="'Segoe UI','PingFang SC',Arial,Helvetica,sans-serif" letter-spacing="1"><tspan fill="#1e293b">Oryx</tspan><tspan fill="#6d28d9">OS</tspan></text>
+</svg>
