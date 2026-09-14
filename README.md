@@ -8,6 +8,8 @@
 ![Java](https://img.shields.io/badge/Java-21-orange) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen) ![License](https://img.shields.io/badge/License-Apache%202.0-blue) ![Build](https://img.shields.io/badge/Build-Maven-red)
 </p>
 
+<p align="center"><a href="https://lemonkz.github.io/enterprise-oryxos/">官方网站 / Website</a></p>
+
 OryxOS 是基于 Java 实现的企业级 Agent Harness OS（Agent 操作系统）：装在企业自己的 K8s、虚拟机或物理机上，作为统一底座运行各种业务 Agent——运维助手、客服助手、HR 助手、销售助手、知识管理助手——共享同一套渠道接入、模型路由、记忆系统、工具调用、沙箱执行与审计能力。数据完全留在企业自己的基础设施，不锁任何云生态。
 
 ```
@@ -162,6 +164,7 @@ oryxos/
 
 | 文档 | 内容 |
 |------|------|
+| [官方网站](https://lemonkz.github.io/enterprise-oryxos/) | 产品官网与在线文档（中/英） |
 | [业界调研](docs/IndustryResearch.md) | Agent OS 定义、业界格局、Java 生态缺位、OryxOS 定位 |
 | [需求文档](docs/DemandAnalysis.md) | 五大核心能力、验收标准、数据模型 |
 | [技术方案](docs/TechnicalSolution.md) | 技术选型、模块结构、关键设计（最权威） |
